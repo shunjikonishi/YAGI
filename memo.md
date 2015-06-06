@@ -1,0 +1,5 @@
+asyncHttpClientが1.19.21になった
+WSの中のAsyncHttpClientにアクセスしようとするとModuleというのを使うらしい
+RouterのデフォルトがDependency Ingected Routerに変更
+これまでの既存のRouterを使う場合はbuild.sbtからroutesGeneratorの行を削除する
+初期生成されるroutesでassetsがassets.atからassets.versionedに変更になった

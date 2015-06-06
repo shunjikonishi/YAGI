@@ -1,0 +1,55 @@
+{
+  "name": "YAGI",
+  "version": "0.0.1",
+  "description": "Yet another GitHub issues",
+  "main": "sbt run",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "sbt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shunjikonishi/YAGI"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "Shunji Konishi",
+  "license": "MIT",
+  "devDependencies": {
+    "api-first-spec": "^0.2.1",
+    "bluebird": "^2.9.25",
+    "chai": "^2.2.0",
+    "css-loader": "^0.12.0",
+    "exports-loader": "^0.6.2",
+    "extract-text-webpack-plugin": "^0.8.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-webpack": "^1.0.8",
+    "jsx-loader": "^0.13.2",
+    "load-grunt-tasks": "^3.1.0",
+    "node-libs-browser": "^0.5.0",
+    "node-sass": "^3.1.1",
+    "pg": "^4.3.0",
+    "q": "^1.4.1",
+    "redis": "^0.12.1",
+    "sass-loader": "^1.0.2",
+    "sql-fixtures": "^0.10.1",
+    "style-loader": "^0.12.2",
+    "time-grunt": "^1.1.1",
+    "webpack": "^1.9.5",
+    "webpack-dev-server": "^1.9.0"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "lodash": "^3.9.3",
+    "purecss": "^0.6.0",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "wolfy87-eventemitter": "^4.2.11"
+  }
+}

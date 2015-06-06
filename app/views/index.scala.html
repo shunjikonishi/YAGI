@@ -1,0 +1,15 @@
+@(message: String)(implicit lang: Lang)
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Yet another GitHub issues</title>
+        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("users/css/bundle.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
+        <script src="@routes.Assets.versioned("users/js/bundle.js")" type="text/javascript"></script>
+    </head>
+    <body>
+      @message
+    </body>
+</html>
